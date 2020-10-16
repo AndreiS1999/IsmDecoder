@@ -1,0 +1,22 @@
+IsmDecoder	KEYWORD1
+GateWay	KEYWORD1
+receive	KEYWORD2
+enable	KEYWORD2
+sendHtml	KEYWORD2
+getTemperature	KEYWORD2
+getHumidity	KEYWORD2
+getButton	KEYWORD2
+getBatteryStatus	KEYWORD2
+getChannel	KEYWORD2
+undefined	LITERAL1
+signedTempCelsius	LITERAL1
+batteryStatus	LITERAL1
+humidityRh	LITERAL1
+channel	LITERAL1
+button	LITERAL1
+online	LITERAL1
+offline	LITERAL1
+dataType	LITERAL1
+data	LITERAL1
+
+
