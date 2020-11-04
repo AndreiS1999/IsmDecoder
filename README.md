@@ -7,7 +7,7 @@ a gateway between and 433MHz radio devices and cloud (only ThingSpeak platform u
 This library uses in its implementation some functions from a modified version of 
 rc-swich library.
 
-##Recomanded setup for simpleGateWay example sketch
+## Recomanded setup for simpleGateWay example sketch
 
 ### Hardware Requirments
 
