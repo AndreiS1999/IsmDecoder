@@ -22,8 +22,8 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit S522BR - RF
 - Protocol: Nexus
 
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg=300x)
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/whiteHomeFront.jpg=300x)
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg =300x)
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/whiteHomeFront.jpg =300x)
 
 #### DG - R8H
 - Data: temperature, humidity, battery status
