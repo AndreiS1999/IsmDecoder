@@ -12,11 +12,15 @@ The gateway implemented by the library has 2 working modes: NORMAL and CONFIG.
 In the CONFIG mode the development board can be connected by ESP directly to any device with WiFi capabilities from where a configuration can be defined.
 In the NORMAL mode the develooment board can be connected to the interned using a WiFi Router to send data from 433Hhz devices to the cloud.
 
-## Suported 433MHz Protocols/Devices
-
+## Suported 433MHz Devices
+There are two packages of protocols: basic and extended.
 ### Basic package
 
-#### Nexus
+#### Home HCKK 08
+- Data: temperature, humidity, battery status
+- Channels: 3 channels
+- Components: integrated circuit S522BR - RF
+
 
 
 ## Recomanded setup for the simpleGateWay example sketch
