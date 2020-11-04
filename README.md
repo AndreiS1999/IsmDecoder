@@ -1,4 +1,4 @@
-ISM DECODER LIBRARY    
+# ISM DECODER LIBRARY    
 
 This is a library for ESP8266 (for now testet only on WeMos D1 R1) which implements 
 a gateway between and 433MHz radio devices and cloud (only ThingSpeak platform until now).
@@ -9,22 +9,23 @@ rc-swich library.
 
 
 
-HARDWARE REQUIRMENTS (for the simpleGateWay example sketch)
+### HARDWARE REQUIRMENTS (for the simpleGateWay example sketch)
 
 - Development board with ESP8266 module(tested only on WeMos D1 R1)
 - RF receive module for 433MHZ
 - any switch
 - 10k resistor
 
-PINS
+### PINS
 
-1 or 2 interrupt pins for RF module data outpusts.
-The second pin is required for the "extended" set of protocols( with only 1 pin the gateway will
+- 1 or 2 interrupt pins for RF module data outpusts.(The second pin is required for the "extended" set of protocols. With only 1 pin the gateway will
 work fine, but with only the basic set)
+- 1 interrupt pin for the reset config button output.
+- 1 pin for the "software" reset required for working modes swap. This pin have to be connected with the development board's reset pin.
 
 
-RECOMANDEND SCHEMATIC (working with simpleGateWay example sketch)
-![alt text](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
+### RECOMANDEND SCHEMATIC (working with simpleGateWay example sketch)
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
 Basic Protocol Set:
 	1.ControllerTest 
