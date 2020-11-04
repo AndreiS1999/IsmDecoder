@@ -24,7 +24,7 @@ work fine, but with only the basic set)
 
 
 RECOMANDEND SCHEMATIC (working with simpleGateWay example sketch)
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
 Basic Protocol Set:
 	1.ControllerTest 
