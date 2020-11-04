@@ -7,16 +7,16 @@ a gateway between and 433MHz radio devices and cloud (only ThingSpeak platform u
 This library uses in its implementation some functions from a modified version of 
 rc-swich library.
 
+##Recomanded setup for simpleGateWay example sketch
 
-
-### HARDWARE REQUIRMENTS (for the simpleGateWay example sketch)
+### Hardware Requirments
 
 - Development board with ESP8266 module(tested only on WeMos D1 R1)
 - RF receive module for 433MHZ
 - any switch
 - 10k resistor
 
-### PINS
+### Pins configuration
 
 - 1 or 2 interrupt pins for RF module data outpusts.(The second pin is required for the "extended" set of protocols. With only 1 pin the gateway will
 work fine, but with only the basic set)
@@ -24,7 +24,7 @@ work fine, but with only the basic set)
 - 1 pin for the "software" reset required for working modes swap. This pin have to be connected with the development board's reset pin.
 
 
-### RECOMANDEND SCHEMATIC (working with simpleGateWay example sketch)
+### Recomanded Schematic
 ![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
 Basic Protocol Set:
