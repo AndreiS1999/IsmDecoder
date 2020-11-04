@@ -22,7 +22,7 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit S522BR - RF
 - Protocol: Nexus
 
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg){:height="36px" width="36px"}
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg | width=100)
 ![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/whiteHomeFront.jpg ){ :height="36px" width="36px" }
 
 #### DG - R8H
