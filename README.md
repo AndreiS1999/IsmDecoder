@@ -22,13 +22,17 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit S522BR - RF
 - Protocol: Nexus
 
-<img src="https://user-images.githubusercontent.com/16319829/81180309-2b51f000-8fee-11ea-8a78-ddfe8c3412a7.png" width="150" height="280">
+<img src="https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg" width="30%" height="30%">
+<img src="https://github.com/AndreiS1999/IsmDecoder/blob/main/img/whiteHomeFront2.jpg" width="30%" height="30%">
+
 #### DG - R8H
 - Data: temperature, humidity, battery status
 - Channels: 3 channels
 - Components: integrated circuit XY511M - 1TX
 - Protocol: Nexus
 
+<img src="https://github.com/AndreiS1999/IsmDecoder/blob/main/img/DigooR8HOutside.jpg" width="30%" height="30%">
+<img src="https://github.com/AndreiS1999/IsmDecoder/blob/main/img/DGR8HFront.jpg" width="30%" height="30%">
 
 ### Extended Package
 
@@ -38,6 +42,8 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit TX1 -5 , radio emitter GE16 -1077R5
 - Protocol: Prologue
 
+<img src="https://github.com/AndreiS1999/IsmDecoder/blob/main/img/DGr8sOutside.jpg" width="30%" height="30%">
+<img src="https://github.com/AndreiS1999/IsmDecoder/blob/main/img/DIGOOr8sFront.jpg" width="30%" height="30%">
 
 ## Recomanded setup for the simpleGateWay example sketch
 
