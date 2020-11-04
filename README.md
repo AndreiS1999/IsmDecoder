@@ -13,15 +13,37 @@ In the CONFIG mode the development board can be connected by ESP directly to any
 In the NORMAL mode the develooment board can be connected to the interned using a WiFi Router to send data from 433Hhz devices to the cloud.
 
 ## Suported 433MHz Devices
-There are two packages of protocols: basic and extended.
+There are two packages of devices: basic and extended.
 ### Basic package
 
 #### Home HCKK 08
 - Data: temperature, humidity, battery status
 - Channels: 3 channels
 - Components: integrated circuit S522BR - RF
+- Protocol: Nexus
 
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg)
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/whiteHomeFront.jpg)
 
+#### DG - R8H
+- Data: temperature, humidity, battery status
+- Channels: 3 channels
+- Components: integrated circuit XY511M - 1TX
+- Protocol: Nexus
+
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
+
+### Extended Package
+
+#### DG - R8S
+- Data: temperature, humidity, battery status
+- Channels: 3 channels
+- Components: integrated circuit TX1 -5 , radio emitter GE16 -1077R5
+- Protocol: Prologue
+
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
+![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
 ## Recomanded setup for the simpleGateWay example sketch
 
@@ -43,15 +65,7 @@ work fine, but with only the basic package)
 ### Recomanded Schematic
 ![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
-Basic Protocol Set:
-	1.ControllerTest 
-	2.Nexus (DG-R8H, Home-HCKK 08)
 
-Extended Protocol Set:
-	1.Prologue (DIGOO R8S)
-
-*Prologue is added in the extended set of protocols because of its timings incompatibility with 
-nexus.
 
 METHODS
 
