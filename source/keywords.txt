@@ -6,8 +6,11 @@ sendHtml	KEYWORD2
 getTemperature	KEYWORD2
 getHumidity	KEYWORD2
 getButton	KEYWORD2
+getData	KEYWORD2
 getBatteryStatus	KEYWORD2
 getChannel	KEYWORD2
+sendToThingSpeak	KEYWORD2
+handleConfig	KEYWORD2
 undefined	LITERAL1
 signedTempCelsius	LITERAL1
 batteryStatus	LITERAL1
