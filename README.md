@@ -22,8 +22,6 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit S522BR - RF
 - Protocol: Nexus
 
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/homeWhiteOutside.jpg | width=100)
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/whiteHomeFront.jpg ){ :height="36px" width="36px" }
 
 #### DG - R8H
 - Data: temperature, humidity, battery status
@@ -31,8 +29,6 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit XY511M - 1TX
 - Protocol: Nexus
 
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
 ### Extended Package
 
@@ -42,8 +38,6 @@ There are two packages of devices: basic and extended.
 - Components: integrated circuit TX1 -5 , radio emitter GE16 -1077R5
 - Protocol: Prologue
 
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
-![schematic](https://github.com/AndreiS1999/IsmDecoder/blob/main/img/simple_schematic.jpg?raw=true)
 
 ## Recomanded setup for the simpleGateWay example sketch
 
@@ -67,28 +61,27 @@ work fine, but with only the basic package)
 
 
 
-METHODS
+## Methods and Functions
 
-1.Constructors:
+## Constructors:
 
-GateWay(int pin1, char* router_name, char* router_password);
-GateWay(int pin1,int pin2, char* router_name, char* router_password);
+- GateWay(data pin , reset config pin, output pin for RST pin);
+- GateWay(data pin 1 , data pin 2, reset config pin, output pin for RST pin);
 
-2.Methods:
+## Methods:
 
-enanle(); - have to be used in setup()
-enable(networkMode mode) - enables the gateWay in "online"(conected by ESP) or "offline"( working only 
-as receiver and decoder).Default mode, applyed by enable(); is online.
+- enanle(); - have to be used in setup()
+- receive(); - checks if the signal is similar to a protocl and saves the recevied data.
+- sendToThingSpeak(); - sends the last received data package to the thinngspeak channel/field acording to teh configuration
+- handleConfig(); - used only in config mode, receives data by GET from the device connected to ESP and saves the configuration in the EEPROM mamory
 
-receive(); - checks if the signal is similar to a protocl and saves the recevied data.
 
-sendHtml(); - sends the last received data on the local server as HTML;
-
-getTemperature();
-getHumidity();
-getButton();
-getBatteryStatus();
-getChannel();
+- getData( data type )
+- getTemperature();
+- getHumidity();
+- getButton();
+- getBatteryStatus();
+- getChannel();
 
 
 
