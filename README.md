@@ -69,12 +69,12 @@ work fine, but with only the basic package)
 
 ## Methods and Functions
 
-## Constructors:
+### Constructors:
 
 - GateWay(data pin , reset config pin, output pin for RST pin);
 - GateWay(data pin 1 , data pin 2, reset config pin, output pin for RST pin);
 
-## Methods:
+### Methods:
 
 - enanle(); - have to be used in setup()
 - receive(); - checks if the signal is similar to a protocl and saves the recevied data.
