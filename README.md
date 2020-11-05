@@ -5,7 +5,7 @@ a gateway between and 433MHz radio devices and the internet.
 
 
 This library uses in its implementation some functions from a modified version of 
-rc-swich library.
+rc-swich library. ( https://github.com/sui77/rc-switch )
 
 ## General Description
 The gateway implemented by the library has 2 working modes: NORMAL and CONFIG.
