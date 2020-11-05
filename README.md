@@ -92,9 +92,9 @@ work fine, but with only the basic package)
 
 ## Protocols
 
--Prologue:  ![](https://github.com/merbanan/rtl_433/blob/master/src/devices/prologue.c)
+- Prologue:  https://github.com/merbanan/rtl_433/blob/master/src/devices/prologue.c
 
--Nexus Protocol: ![](https://github.com/merbanan/rtl_433/blob/master/src/devices/nexus.c)
+- Nexus Protocol: https://github.com/merbanan/rtl_433/blob/master/src/devices/nexus.c
 
 
 
