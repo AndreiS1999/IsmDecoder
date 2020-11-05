@@ -10,7 +10,7 @@ rc-swich library.
 ## General Description
 The gateway implemented by the library has 2 working modes: NORMAL and CONFIG.
 In the CONFIG mode the development board can be connected by ESP directly to any device with WiFi capabilities from where a configuration can be defined.
-In the NORMAL mode the develooment board can be connected to the interned using a WiFi Router to send data from 433Hhz devices to the cloud.
+In the NORMAL mode the development board can be connected to the internet using a WiFi Router to send data from 433Hhz devices to the cloud.
 
 ## Suported 433MHz Devices
 There are two packages of devices: basic and extended.
